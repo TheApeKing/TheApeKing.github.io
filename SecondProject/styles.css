@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    margin: 0 auto;
+    text-align: center;
+    width: 965px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+#canvas {
+    background-color: green;
+}
+
+#balance {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 120px;
+    right: 380px;
+}
+
+#betAmount {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 125px;
+    right: 380px;
+}
+
+input[type="text"] {
+    position: relative;
+    bottom: 165px;
+    width: 100px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 300px;
+    bottom: 165px;
+    transition-duration: 0.4s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+    color: white;
+}
+
+#img1 {
+    float: right;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 550px;
+    right: 120px;
+}
+
+#img2 {
+    float: right;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 550px;
+    right: 15px;
+}
+
+#img3 {
+    float: right;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 550px;
+    left: 90px;
+}
+
+#img4 {
+    float: right;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    bottom: 550px;
+    left: 195px;
+}
